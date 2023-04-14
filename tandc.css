@@ -1,0 +1,30 @@
+.tc-cont{
+	width: 100%;
+	height: 4965px;
+/*	background-color: cyan;*/
+	font-family: calibri;
+
+}
+
+.tc-cont h1{
+	margin-left: 80px;
+	font-size: 26px;
+
+}
+
+.tc-cont p{
+	margin-left: 100px;
+	margin-right: 80px;
+	font-size: 22px;
+}
+
+
+.tc-cont h2{
+	margin-left: 100px;
+	margin-right: 80px;
+	font-weight: bold;
+}
+
+
+
+

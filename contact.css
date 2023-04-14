@@ -1,0 +1,19 @@
+.contact-cont{
+	font-family: calibri;
+	margin-left: 80px;
+}
+
+.contact-cont h1{
+	font-size: 40px;
+	font-weight: 400;
+}
+
+
+.contact-cont span{
+	font-size: 23px;
+	font-weight: normal;
+}
+
+.contact-cont b{
+	font-size: 25px;
+}

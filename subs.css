@@ -1,0 +1,667 @@
+.logo-head{
+	width: 100%;
+	height: 60px;
+/*	background-color: cyan;*/
+
+}
+
+
+.logo-head img{
+	width: 110px;
+	position: relative;
+	top: 17%;
+	left: 2%;
+}
+
+.heading-texts{
+	width: 100%;
+	height: 155px;
+/*	background-color: magenta;*/
+	font-family: calibri;
+	text-align: center;
+}
+
+.heading-texts div:nth-child(1){
+	font-size: 38px;
+	position: relative;
+	top: 4%;
+}
+
+
+.heading-texts div:nth-child(2){
+	font-size: 35px;
+	position: relative;
+	top: 6%;
+	color: skyblue;
+}
+
+
+.heading-texts div:nth-child(3){
+	font-size: 32px;
+	position: relative;
+	top: 8%;
+	color: lightgrey;
+}
+
+.help{
+	width: 8%;
+	height: 44px;
+	background-color: #303030;
+	border-radius: 35px;
+	scale: 1.08;
+	margin-top: 27%;
+	margin-left: 88.5%;
+	position: fixed;
+	z-index: 9999;
+}
+
+.help img{
+	width: 25%;
+	position: relative;
+	top: 20%;
+	left: 10%;
+	float: left;
+	filter: invert(100%);
+}
+
+.help div{
+	font-family: calibri;
+	font-size: 20px;
+	position: relative;
+	top: 22%;
+	left: 17%;
+	font-weight: 700;
+	color: white;
+
+}
+
+
+
+
+
+.main-container{
+	width: 100%;
+	height: 800px;
+/*	background-color: grey;*/
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+.print{
+	width: 26%;
+	height: 700px;
+	border: 1px solid grey;
+/*	background-color: greenyellow;*/
+	float: left;
+	margin-left: 6%;
+	border-radius: 7px;
+	overflow: hidden;
+	transition: .28s;
+
+
+}
+
+
+.print:hover{
+	box-shadow: 0px 0px 9px .5px black;
+}
+
+.wrapper{
+	width: 40%;
+	height: 23px;
+	background-color: darkred;
+	text-align: center;
+	font-family: calibri;
+	font-weight: bolder;
+	color: white;
+	letter-spacing: .7px;
+	font-size: 18px;
+	padding-top: 60px;
+	transform: rotate(317deg);
+	position: relative;
+	top: -25px;
+	left: -53px;
+	cursor: context-menu;
+
+}
+
+.pr-text{
+	font-family: calibri;
+	font-size: 42px;
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: .5px;
+	margin-top: -67px;
+}
+
+
+.pr-img{
+	width: 100%;
+	height: 270px;
+/*	background-color: magenta;*/
+	margin-top: 23px;
+	border-bottom: .8px solid grey;/* make it grey later */
+}
+
+
+	.pr-img img{
+		width: 100%;
+		position: relative;
+		top: 19%;
+	}
+
+
+.three-lines{
+	width: 89%;
+	height: 174px;
+/*	background-color: hotpink;*/
+	padding-top: 46px;
+	padding-left: 40px;
+}
+
+
+	.three-lines img{
+		width: 6%;
+	}
+
+	.three-lines div{
+		display: inline-block;
+		font-family: calibri;
+		font-size: 20px;
+		position: relative;
+		top: -3px;
+		left: 25px;
+
+	}
+
+
+.drop-d{
+	width: 100%;
+	height: 70px;
+/*	background-color: cyan;*/
+}
+
+	.drop-d select{
+		margin-top: 15px;
+		width: 88%;
+		height: 40px;
+		position: relative;
+		left: 6%;
+		border: 1.2px solid grey;
+		font-size: 20px;
+	}
+
+
+.select-btn{
+	width: 100%;
+	height: 50px;
+/*	background-color: blueviolet;*/
+	font-family: calibri;
+
+}
+
+	.select-btn div:nth-child(1){
+		width: 75%;
+		height: 50px;
+		background-color: rgba(210, 210, 210, 1.0);
+		float: left;
+
+	}
+
+	.print:hover .select-btn div:nth-child(1){
+		background-color: cyan;
+		color: white;
+	}
+
+	.select-btn div:nth-child(1) h1{
+		font-size: 26px;
+		font-weight: 500;
+		width: 45%;
+		position: relative;
+		top: 14%;
+		left: 8%;
+	}
+
+	.select-btn div:nth-child(1) h1 s{
+		font-size: 17px;
+		color: darkred;
+	}
+
+	.print:hover .select-btn div:nth-child(1) h1 s{
+		background-color: cyan;
+		color: white;
+	}
+
+
+	.select-btn div:nth-child(2){
+		width: 25%;
+		height: 50px;
+		background-color: rgba(150, 150, 150, 1.0);
+		float: left;
+
+	}
+
+	.print:hover .select-btn div:nth-child(2){
+		background-color: rgb(0,220,220);
+		color: white;
+	}
+
+
+	.select-btn div:nth-child(2) h1{
+		font-size: 22px;
+		font-weight: 500;
+		width: 45%;
+		position: relative;
+		top: 18%;
+		left: 18%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.digital{
+	width: 26%;
+	height: 700px;
+	border: 1px solid grey;
+/*	background-color: greenyellow;*/
+	float: left;
+	margin-left: 6%;
+	border-radius: 7px;
+	overflow: hidden;
+	transition: .28s;
+}
+
+
+.digital:hover{
+	box-shadow: 0px 0px 9px .5px black;
+}
+
+
+.digi-wrapper{
+	width: 40%;
+	height: 23px;
+	background-color: darkred;
+	text-align: center;
+	font-family: calibri;
+	font-weight: bolder;
+	color: white;
+	letter-spacing: .7px;
+	font-size: 18px;
+	padding-top: 60px;
+	transform: rotate(317deg);
+	position: relative;
+	top: -25px;
+	left: -53px;
+	cursor: context-menu;
+
+}
+
+.digi-text{
+	font-family: calibri;
+	font-size: 42px;
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: .5px;
+	margin-top: -67px;
+}
+
+
+.digi-img{
+	width: 100%;
+	height: 270px;
+/*	background-color: magenta;*/
+	margin-top: 23px;
+	border-bottom: .8px solid grey;/* make it grey later */
+}
+
+
+	.digi-img img{
+		width: 100%;
+		position: relative;
+		top: 19%;
+	}
+
+
+.digi-three-lines{
+	width: 89%;
+	height: 174px;
+/*	background-color: hotpink;*/
+	padding-top: 46px;
+	padding-left: 40px;
+}
+
+
+	.digi-three-lines img{
+		width: 6%;
+	}
+
+	.digi-three-lines div{
+		display: inline-block;
+		font-family: calibri;
+		font-size: 17.2px;
+		position: relative;
+		top: -3px;
+		left: 25px;
+
+	}
+
+
+.digi-drop-d{
+	width: 100%;
+	height: 70px;
+/*	background-color: blue;*/
+}
+
+	.digi-drop-d select{
+		margin-top: 15px;
+		width: 88%;
+		height: 40px;
+		position: relative;
+		left: 6%;
+		border: 1.2px solid grey;
+		font-size: 20px;
+	}
+
+
+.digi-select-btn{
+	width: 100%;
+	height: 50px;
+/*	background-color: blueviolet;*/
+	font-family: calibri;
+
+}
+
+	.digi-select-btn div:nth-child(1){
+		width: 75%;
+		height: 50px;
+		background-color: rgba(210, 210, 210, 1.0);
+		float: left;
+
+	}
+
+	.digital:hover .digi-select-btn div:nth-child(1){
+		background-color: cyan;
+		color: white;
+	}
+
+	.digi-select-btn div:nth-child(1) h1{
+		font-size: 26px;
+		font-weight: 500;
+		width: 45%;
+		position: relative;
+		top: 14%;
+		left: 8%;
+	}
+
+	.digi-select-btn div:nth-child(1) h1 s{
+		font-size: 17px;
+		color: darkred;
+	}
+
+	.digital:hover .digi-select-btn div:nth-child(1) h1 s{
+		background-color: cyan;
+		color: white;
+	}
+
+
+	.digi-select-btn div:nth-child(2){
+		width: 25%;
+		height: 50px;
+		background-color: rgba(150, 150, 150, 1.0);
+		float: left;
+
+	}
+
+	.digital:hover .digi-select-btn div:nth-child(2){
+		background-color: rgb(0,220,220);
+		color: white;
+	}
+
+
+	.digi-select-btn div:nth-child(2) h1{
+		font-size: 22px;
+		font-weight: 500;
+		width: 45%;
+		position: relative;
+		top: 18%;
+		left: 18%;
+	}
+
+
+
+
+
+
+
+
+.best-sellers{
+	width: 26%;
+	height: 700px;
+	border: 1px solid grey;
+/*	background-color: greenyellow;*/
+	float: left;
+	margin-left: 6%;
+	border-radius: 7px;
+	overflow: hidden;
+	transition: .28s;
+}
+
+
+.best-sellers:hover{
+	box-shadow: 0px 0px 9px .5px black;
+}
+
+.bs-wrapper{
+	width: 40%;
+	height: 23px;
+	background-color: darkred;
+	text-align: center;
+	font-family: calibri;
+	font-weight: bolder;
+	color: white;
+	letter-spacing: .7px;
+	font-size: 18px;
+	padding-top: 60px;
+	transform: rotate(317deg);
+	position: relative;
+	top: -25px;
+	left: -53px;
+	cursor: context-menu;
+
+}
+
+.bs-text{
+	font-family: calibri;
+	font-size: 42px;
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: .5px;
+	margin-top: -67px;
+}
+
+
+.bs-img{
+	width: 100%;
+	height: 270px;
+/*	background-color: magenta;*/
+	margin-top: 23px;
+	border-bottom: .8px solid grey;/* make it grey later */
+}
+
+
+	.bs-img img{
+		width: 100%;
+		position: relative;
+		top: 19%;
+	}
+
+
+.bs-three-lines{
+	width: 89%;
+	height: 174px;
+/*	background-color: hotpink;*/
+	padding-top: 46px;
+	padding-left: 40px;
+}
+
+
+	.bs-three-lines img{
+		width: 6%;
+	}
+
+	.bs-three-lines div{
+		display: inline-block;
+		font-family: calibri;
+		font-size: 20px;
+		position: relative;
+		top: -3px;
+		left: 25px;
+
+	}
+
+
+.bs-drop-d{
+	width: 100%;
+	height: 70px;
+/*	background-color: blue;*/
+}
+
+	.bs-drop-d select{
+		margin-top: 15px;
+		width: 88%;
+		height: 40px;
+		position: relative;
+		left: 6%;
+		border: 1.2px solid grey;
+		font-size: 20px;
+	}
+
+
+
+
+.bs-select-btn{
+	width: 100%;
+	height: 50px;
+/*	background-color: blueviolet;*/
+	font-family: calibri;
+
+}
+
+	.bs-select-btn div:nth-child(1){
+		width: 75%;
+		height: 50px;
+		background-color: rgba(210, 210, 210, 1.0);
+		float: left;
+
+	}
+
+	.best-sellers:hover .bs-select-btn div:nth-child(1){
+		background-color: cyan;
+		color: white;
+	}
+
+	.bs-select-btn div:nth-child(1) h1{
+		font-size: 26px;
+		font-weight: 500;
+		width: 45%;
+		position: relative;
+		top: 14%;
+		left: 8%;
+	}
+
+	.bs-select-btn div:nth-child(1) h1 s{
+		font-size: 16px;
+		color: darkred;
+	}
+
+	.best-sellers:hover .bs-select-btn div:nth-child(1) h1 s{
+		background-color: cyan;
+		color: white;
+	}
+
+
+	.bs-select-btn div:nth-child(2){
+		width: 25%;
+		height: 50px;
+		background-color: rgba(150, 150, 150, 1.0);
+		float: left;
+
+	}
+
+	.best-sellers:hover .bs-select-btn div:nth-child(2){
+		background-color: rgb(0,220,220);
+		color: white;
+	}
+
+
+	.bs-select-btn div:nth-child(2) h1{
+		font-size: 22px;
+		font-weight: 500;
+		width: 45%;
+		position: relative;
+		top: 18%;
+		left: 18%;
+	}
+
+
+
+
+.t-c{
+	width: 100%;
+	height: 40px;
+/*	background-color: cyan;*/
+	margin-top: -70px;
+}
+
+.t-c h1{
+	font-size: 17px;
+	text-align: center;
+
+}
+
+.t-c h1:hover{
+	color: violet;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
